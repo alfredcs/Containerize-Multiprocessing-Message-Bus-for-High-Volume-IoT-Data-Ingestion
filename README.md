@@ -1,1 +1,9 @@
-Congestion bottleneck is one of the common problems in high volume, realtime IoT data ingestions. Top causes include 1) synchronous data uploads from multiple clients, 2) large data in the messages 3) hytrogenious ingext data format 4) Heavy compression/decompression on the message bus and lestly 5) hardware and network bandwidth limitation. Asynchronous multiprocessing message ingestion gateway is widly considered as an effective soltuion to alleviate congestion. This post illustrates a simple solution for distributed message gateway by leveraging Celery along with AMQP in Docker containers. 
+Congestion bottleneck is one of the common problems in high volume, realtime IoT data ingestions. Top causes include 
+
+###### 1) Synchronous data uploads from multiple clients 
+###### 2) Large data in the messages 
+###### 3) Hytrogenious data formats 
+###### 4) Heavy compression/decompression on the message bus and lastly 
+###### 5) hardware and network bandwidth limitation 
+
+Asynchronous multiprocessing message ingestion gateway is widly considered as an effective soltuion to alleviate congestion. This post illustrates a simple solution for distributed message gateway by leveraging Celery along with AMQP in Docker containers. 
