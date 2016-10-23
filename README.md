@@ -8,4 +8,4 @@ Congestion bottleneck is one of the common problems in high volume, realtime IoT
 
 Asynchronous multiprocessing message ingestion gateway is widly considered as an effective soltuion to alleviate congestion. This post illustrates a simple solution for distributed message gateway by leveraging Celery along with AMQP in Docker containers. 
 
-![alt tag] (https://cloud.githubusercontent.com/assets/3374971/19624496/ed8770f0-98ad-11e6-85f2-11e965c49405.png)
+![alt tag] (https://cloud.githubusercontent.com/assets/3374971/19624524/c38c4d74-98ae-11e6-9eac-230c3a474306.png)
